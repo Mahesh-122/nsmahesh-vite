@@ -1,0 +1,25 @@
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: rgb(42, 133, 182);
+}
+
+.splash-animation-container {
+  height: 30vh;
+}
+
+.splash-title-container {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.splash-title {
+  font-family: "Agustina Regular", cursive;
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 20px;
+}/*# sourceMappingURL=SplashScreen.css.map */

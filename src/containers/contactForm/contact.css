@@ -1,0 +1,95 @@
+/* Change colors in this file to style to your needs on a global level. 
+Certain colors are used for different and multiply types of elements. 
+For greater control over colors visit each components .scss file. */
+.Wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1350px;
+  gap: 30px;
+}
+@media (max-width: 960px) {
+  .Wrapper {
+    flex-direction: column;
+  }
+}
+
+.Title {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  .Title {
+    margin-top: 12px;
+    font-size: 32px;
+  }
+}
+
+.Desc {
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+}
+@media (max-width: 768px) {
+  .Desc {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+}
+
+.ContactForm {
+  width: 95%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
+  gap: 30px;
+}
+
+.ContactTitle {
+  font-size: 24px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.ContactInput,
+.ContactInputMessage {
+  flex: 1;
+  background-color: transparent;
+  border: 1px solid #4e94d9;
+  outline: none;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 12px 16px;
+}
+.ContactInput:focus,
+.ContactInputMessage:focus {
+  border: 1px solid #38909f;
+}
+
+.ContactButton {
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  background: rgb(122, 174, 211);
+  background: linear-gradient(225deg, rgb(0, 183, 255) 0%, rgb(0, 183, 255) 100%);
+  background: -webkit-linear-gradient(225deg, rgb(0, 204, 255) 0%, rgb(0, 42, 255) 100%);
+  padding: 13px 16px;
+  margin-top: 2px;
+  border-radius: 12px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Define your styles for Snackbar *//*# sourceMappingURL=Contact.css.map */

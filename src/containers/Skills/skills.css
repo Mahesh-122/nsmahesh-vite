@@ -1,0 +1,98 @@
+/* Change colors in this file to style to your needs on a global level. 
+Certain colors are used for different and multiply types of elements. 
+For greater control over colors visit each components .scss file. */
+.container .wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1100px;
+  gap: 15px;
+}
+@media (max-width: 960px) {
+  .container .wrapper {
+    flex-direction: column;
+  }
+}
+.container .title {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  .container .title {
+    margin-top: 12px;
+    font-size: 32px;
+  }
+}
+.container .skills-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 30px;
+  justify-content: center;
+}
+.container .skills-container .skill {
+  width: 100%;
+  max-width: 500px;
+  border: 0.1px solid #38909f;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 20px 32px;
+  border-radius: 16px;
+  padding: 18px 36px;
+}
+@media (max-width: 768px) {
+  .container .skills-container .skill {
+    max-width: 400px;
+    padding: 10px 36px;
+  }
+}
+@media (max-width: 500px) {
+  .container .skills-container .skill {
+    max-width: 330px;
+    padding: 10px 36px;
+  }
+}
+.container .skills-container .skill .skill-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container .skills-container .skill .skill-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.container .skills-container .skill .skill-list .skill-item {
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid rgba(0, 199, 255, 0.5);
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+@media (max-width: 768px) {
+  .container .skills-container .skill .skill-list .skill-item {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 500px) {
+  .container .skills-container .skill .skill-list .skill-item {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+.container .skills-container .skill .skill-list .skill-item .skill-image {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=skills.css.map */

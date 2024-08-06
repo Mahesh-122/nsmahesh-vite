@@ -1,0 +1,8 @@
+.starWarper {
+  width: 100%;
+  height: 100%; /* Use 100% height to cover the entire parent */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Ensure StarCanvas is behind particles */
+}
