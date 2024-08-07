@@ -1,9 +1,13 @@
+import {useContext} from "react";
 import {CloseRounded, GitHub, LinkedIn} from "@mui/icons-material";
 import {Modal} from "@mui/material";
 import "./projectDetails.css";
 import PropTypes from "prop-types";
+import StyleContext from "../../contexts/StyleContext";
+
 
 const ProjectDetails = ({openModal, setOpenModal}) => {
+  const {isDark} = useContext(StyleContext);
   const project = openModal?.project;
 
   return (
@@ -12,7 +16,7 @@ const ProjectDetails = ({openModal, setOpenModal}) => {
       onClose={() => setOpenModal({state: false, project: null})}
     >
       <div className="container_modal">
-        <div className="wrapper_modal">
+        <div className={isDark ? " dark-menu wrapper_modal" : "wrapper_modal"}>
           <CloseRounded
             className="close-icon"
             onClick={() => setOpenModal({state: false, project: null})}
@@ -61,7 +65,7 @@ const ProjectDetails = ({openModal, setOpenModal}) => {
               </div>
             </>
           )}
-          <div className="button-group">
+          {/* <div className="button-group">
             <a
               className="button dull"
               href={project?.github}
@@ -78,7 +82,7 @@ const ProjectDetails = ({openModal, setOpenModal}) => {
             >
               View Live App
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </Modal>

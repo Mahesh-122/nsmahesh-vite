@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import {useContext} from "react";
 import {DiscriptionSection, greeting, skills} from "../../portfolio";
 import "./skills.css";
 import StyleContext from "../../contexts/StyleContext";

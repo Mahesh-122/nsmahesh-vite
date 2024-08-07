@@ -8,7 +8,6 @@ class Spinner extends React.Component {
       loading: true
     };
   }
-
   render() {
     return (
       <React.Fragment>

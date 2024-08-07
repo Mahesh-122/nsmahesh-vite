@@ -5,6 +5,8 @@ import vexaimg from "./assets/images/vexa.png";
 import trackify from "./assets/images/trackify.png";
 import fairway from "./assets/images/fairway.png";
 import Oceanimg from "./assets/images/ocean.png";
+import ImagePort from "./assets/images/Gajanan.jpeg";
+import ImgePort1 from "./assets/images/lohit.jpeg";
 import Oceanimg1 from "./assets/images/ocean1.png";
 import podstream from "./assets/images/podstream.png";
 
@@ -155,7 +157,7 @@ const skills = [
       },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+        image: "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
       },
       {
         name: "CSS",
@@ -275,17 +277,12 @@ const projects = [
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
     member: [
+      
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/"
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710"
+        name: "Lohith S R",
+        img: ImgePort1,
+        linkedin: "",
+        github: ""
       }
     ]
   },
@@ -306,7 +303,20 @@ const projects = [
       "NodeMailer",
       "sequelize"
     ],
-    category: "Web App Freelance"
+    category: "Web App Freelance",
+    member: [{
+      name: "Gajanan Naik",
+      img: ImagePort,
+      linkedin: "https://github.com/gajanannaik",
+      github: "https://www.linkedin.com/in/gajanan-naik-892801182/"
+    },
+      {
+        name: "Lohith S R",
+        img: ImgePort1,
+        linkedin: "",
+        github: ""
+      }
+    ]
   },
   {
     id: 1,
@@ -327,7 +337,15 @@ const projects = [
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/"
+    webapp: "https://vexa-app.netlify.app/",
+    member: [
+      {
+        name: "Lohith S R",
+        img: ImgePort1,
+        linkedin: "",
+        github: ""
+      }
+    ]
   },
   {
     id: 2,

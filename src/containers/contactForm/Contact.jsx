@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import {Snackbar} from "@mui/material";
 import StyleContext from "../../contexts/StyleContext";
 import "./Contact.scss"; // Import the SCSS file
+import EarthCanvas from "../../components/canvas/Earth";
 
 const Contact = () => {
   const [open, setOpen] = useState(false);
@@ -35,6 +36,7 @@ const Contact = () => {
 
   return (
     <div className={isDark ? "dark-menu container" : "container"}id="contact-section">
+     <EarthCanvas/>
       <div className="Wrapper">
         <div className="Title">Contact</div>
         <div className="Desc">

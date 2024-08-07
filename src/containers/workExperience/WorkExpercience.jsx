@@ -1,5 +1,4 @@
-import React, {useContext} from "react";
-// import ExperienceCard from "../../components/experienceCard/ExperienceCard";
+import {useContext} from "react";
 import {workExperiences} from "../../portfolio";
 import {Fade} from "react-awesome-reveal";
 import "../../assets/scss/Basic.scss";
@@ -19,7 +18,6 @@ export default function WorkExperience() {
                   Experience
                   <span className="circle">
                   <i className="fa fa-briefcase icon" aria-hidden="true"></i>
-
                   </span>
                 </div>
                 <div className="cd-timeline">
